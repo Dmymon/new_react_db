@@ -1,0 +1,22 @@
+{
+  "name": "zzgraphdb",
+  "version": "1.0.0",
+  "description": "neo4j project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "cd ./my-gui-app && node script.js",
+    "gui": "cd ./src && python testScript.py",
+    "start-gui": "cd ./my-gui-app && npm run start",
+    "build-gui": "cd ./my-gui-app && npm run build"
+  },
+  "author": "Mymon",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "d3": "^7.8.4",
+    "neo4j-driver": "^5.7.0",
+    "python": "^0.0.4",
+    "tkinter": "^0.0.2-security"
+  }
+}
